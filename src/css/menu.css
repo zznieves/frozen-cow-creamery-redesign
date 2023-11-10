@@ -1,0 +1,45 @@
+
+.menu {
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.menu-title h2 {
+    font-size: 3.5vh;
+}
+
+.menu-items {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: stretch;
+
+    height: fit-content;
+}
+
+.grid-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 30%);
+
+    column-gap: 5%;
+    row-gap: 2%;
+}
+
+.grid-item {
+    border: 2px solid #b4dbe5;
+
+    border-radius: 1%;
+
+    flex: 1;
+}
+
+.flavors-and-tossins {
+
+    margin-top: 30%;
+    text-align: left;
+
+    margin: 30% auto 0 auto;
+}
+

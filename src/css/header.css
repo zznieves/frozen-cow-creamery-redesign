@@ -11,7 +11,7 @@ header {
     flex: 1 0 0;
 }
 
-h2 {
+header h2 {
     border: 1px solid black;
     padding: .3%;
 }
@@ -41,6 +41,8 @@ a:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #ff8bc4;
+
+    cursor: pointer;
 }
 
 /* media queries for header sectioin */
