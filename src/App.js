@@ -18,11 +18,11 @@ function App() {
         <nav className='flexbox-container row'>
 
           <a href='#menu'>Menu</a>
-          <a> | </a>
+          <p> | </p>
           <a href='#about'>About</a>
-          <a> | </a>
+          <p> | </p>
           <a href='#contact'>Contact</a>
-          <a> | </a>
+          <p> | </p>
           <a href='#careers'>Careers</a>
 
         </nav>

@@ -28,6 +28,8 @@
     flex-direction: column;
 
     margin: 5% 2.5%;
+
+    border: 2px solid #b4dbe5;
 }
 
 #interactive-map {
