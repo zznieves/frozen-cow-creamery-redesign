@@ -141,7 +141,7 @@ function App() {
 
           <div className='contact-right location-map flexbox-container'>
 
-          <iframe id='interactive-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.7954382968232!2d-84.61572632382368!3d34.02346141924869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f53fe4c6c093c3%3A0xe8f76ecc2c7f4da5!2sFrozen%20Cow%20Creamery!5e0!3m2!1sen!2sus!4v1699670178944!5m2!1sen!2sus" 
+          <iframe title='google-maps-location' id='interactive-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.7954382968232!2d-84.61572632382368!3d34.02346141924869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f53fe4c6c093c3%3A0xe8f76ecc2c7f4da5!2sFrozen%20Cow%20Creamery!5e0!3m2!1sen!2sus!4v1699670178944!5m2!1sen!2sus" 
             style={{border:0}}
             allowfullscreen="" 
             loading="lazy" 
