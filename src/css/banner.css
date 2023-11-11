@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant+Garamond:wght@300&family=Lisu+Bosa:wght@200&family=Montserrat&family=Playfair+Display&display=swap');
+
+.banner {
+
+    width: 100%;
+
+    background-image: url('../assets/fcc.jpg');
+    background-size: cover;
+    background-position:center;
+
+    background-color: grey;
+    background-blend-mode: multiply;
+    color: white;
+
+    font-family: 'Agbalumo';
+    font-size: 4vh;
+
+    height: 75vh;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.company-logo {
+    width: 25%;
+}
+
+.company-logo img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    animation: glow 2s infinite alternate;
+
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 10px #ff8bc4, 0 0 20px #ff8bc4, 0 0 30px #ff8bc4; /* Define the glow effect */
+      }
+      to {
+        box-shadow: none; /* Turn off the glow effect */
+      }
+}
+
+.motto-banner {
+    width: 100%;
+}
+
+.motto-banner h2 {
+    margin-bottom: 1%;
+    background-color: black;
+
+    flex: 1 0 0;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .company-logo {
+        width: 50%;
+
+        flex: 0 0 1;
+    }
+}
+
+@media screen and (max-width: 750px) and (max-height: 400px) {
+
+    .company-logo {
+        width: 25%;
+
+        flex: 0 0 1;
+    }
+}

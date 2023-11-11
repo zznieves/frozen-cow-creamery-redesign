@@ -1,31 +1,34 @@
 import './App.css';
 import './css/header.css';
-import './css/about.css';
+import './css/banner.css';
 import './css/menu.css';
+import './css/about.css';
+import './css/contact.css';
 import FrozenCowLogo from './assets/fcc_logo.jpg';
 import specialtyItems from './menuItems.js';
+import FronzenCowFamily from './assets/fcc-family.jpg'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flexbox-container">
 
       <header className='flexbox-container'>
         <h2>Frozen Cow Creamery</h2>
 
         <nav className='flexbox-container row'>
 
-          <a>About</a>
+          <a href='#menu'>Menu</a>
           <a> | </a>
-          <a>Menu</a>
+          <a href='#about'>About</a>
           <a> | </a>
-          <a>Contact</a>
+          <a href='#contact'>Contact</a>
           <a> | </a>
-          <a>Careers</a>
+          <a href='#careers'>Careers</a>
 
         </nav>
       </header>
 
-      <div className='about flexbox-container'>
+      <div className='banner flexbox-container'>
         
         <div className='company-logo'>
           <img src={FrozenCowLogo} alt='frozen cow logo' />
@@ -37,7 +40,7 @@ function App() {
 
       </div>
 
-      <div className='menu flexbox-container'>
+      <div id='menu' className='menu flexbox-container'>
         
         <div className='menu-title'>
           <h2>Menu</h2>
@@ -84,6 +87,72 @@ function App() {
          </p>
         </div>
 
+        <div id='about' className='about'>
+          <h2>About Us</h2>
+
+          <div className='family flexbox-container'>
+            <img src={FronzenCowFamily} alt='frozen cow creamery family' />
+            <p>
+            Meet the husband, wife, and daughter team behind Frozen Cow<br />
+            Creamery.We have a love for creating and sharing delicious food and <br />
+            desserts with those close to us, and we were ready to share our<br />
+             passion with our community. With fond memories of family trips<br />
+              to eat the best homemade ice cream at the local creamery in Ohio where<br />
+               we used to live, we wanted to recreate that same experience in <br />
+               Kennesaw. We are grateful to have lived here for over 25 years and to<br />
+                have served this wonderful community for more than 6 years now<br />
+                 with the help of our amazing staff. We hope to continue to serve you<br />
+                  for many more years to come!  <br />
+                  Thank you for supporting our small family-owned business! 
+            </p>
+          </div>
+        </div>
+
+        <div id='contact' className='contact flexbox-container'>
+
+
+          <div className='contact-left flexbox-container'>
+
+            <h2>Contact</h2>
+
+            <h3>Frozen Cow Creamery</h3>
+
+            <p>
+              2870 Cherokee Street Northwest, Kennesaw, Georgia<br /> 30144, United States
+              <br />
+              <br />
+              678-324-7459<br/><br />
+              <a href="Frozenbluecow@gmail.com">Frozenbluecow@gmail.com</a>
+            </p>
+
+            <h3>Hours</h3>
+
+            <p id='hours-of-operation'>
+            Monday- Thursday: 1- 9PM <br />
+
+            Friday: 1- 11 PM <br />
+
+            Saturday 12 - 11 PM <br />
+
+            Sunday 1 - 9 PM
+            </p>
+
+          </div>
+
+          <div className='contact-right location-map flexbox-container'>
+
+          <iframe id='interactive-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.7954382968232!2d-84.61572632382368!3d34.02346141924869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f53fe4c6c093c3%3A0xe8f76ecc2c7f4da5!2sFrozen%20Cow%20Creamery!5e0!3m2!1sen!2sus!4v1699670178944!5m2!1sen!2sus" 
+            style={{border:0}}
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            >
+
+            </iframe>
+
+          </div>
+
+        </div>
 
       </div>
 
