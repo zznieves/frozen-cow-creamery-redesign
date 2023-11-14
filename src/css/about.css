@@ -15,3 +15,17 @@
 
     margin-left: 8%;
 }
+
+@media screen and (max-width: 900px) {
+
+    .family {
+        flex-direction: column;
+
+        margin: 0 auto;
+    }
+
+    .family img {
+        max-width: 100%;
+        
+    }
+}

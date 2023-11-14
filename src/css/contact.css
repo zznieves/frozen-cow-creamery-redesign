@@ -6,6 +6,8 @@
     align-items: center;
 
     margin-top: 5%;
+
+    flex: 1 0 0;
 }
 
 .contact-left {
@@ -29,7 +31,7 @@
 
     margin: 5% 2.5%;
 
-    border: 2px solid #b4dbe5;
+    border: 3px solid #b4dbe5;
 }
 
 #interactive-map {
@@ -42,4 +44,28 @@
     font-size: large;
 
     line-height: 1.7;
+}
+
+@media screen and (max-width: 900px) {
+
+    .contact {
+        flex-direction: column;
+
+    }
+
+    .contact-left {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-left {
+
+        text-align: center;
+    }
+
+    #interactive-map {
+        width: 100%;
+
+        height: 75vh;
+    }
 }
