@@ -12,27 +12,22 @@
     flex-direction: column;
 
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
 
 .grid-container {
-
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
+    grid-template-columns: repeat(2, 35%);
 
-    grid-gap: 2vh;
+    align-items: stretch;
 
-    margin: 2% 15%;
+    gap: 10px;
 }
+
 
 .grid-item {
     border: 2px solid #b4dbe5;
 
-    height: fit-content;
-
-    border-radius: 1%;
-
-    box-sizing: border-box;
 }
 
 .flavors-and-tossins {
