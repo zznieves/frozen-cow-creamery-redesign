@@ -65,7 +65,7 @@ function App() {
 
         </div>
 
-        <div className='flavors-and-tossins'>
+        <div className='flavors-and-tossins flexbox-container'>
           <h2>Choose Your Flavors & Toss-ins</h2>
 
           <h3>Flavors</h3>

@@ -1,12 +1,16 @@
 
 
+.about {
+    margin-top: 3%;
+}
+
 .family {
     flex-direction: row;
 
     justify-content: center;
     align-items: center;
 
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 
@@ -18,14 +22,22 @@
 
 @media screen and (max-width: 900px) {
 
+    .about {
+        margin-top: 7%;
+    }
+
     .family {
         flex-direction: column;
 
-        margin: 0 auto;
+        margin: 5% 5%;
     }
 
     .family img {
-        max-width: 100%;
+        max-width: 80%;
         
+    }
+
+    .family p {
+        margin: 10% 5%;
     }
 }

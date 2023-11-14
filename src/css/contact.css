@@ -56,11 +56,11 @@
     .contact-left {
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
-    .contact-left {
-
-        text-align: center;
+    .contact-left h2 {
+        margin: 10%;
     }
 
     #interactive-map {
